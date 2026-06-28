@@ -1,0 +1,266 @@
+{
+  "Hikvision": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/Streaming/Channels/{channel}",
+    "fields": ["channel"],
+    "default_port": 554,
+    "help": "Channel: 101 (main), 102 (sub)"
+  },
+  "Dahua": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/cam/realmonitor?channel={channel}&subtype={subtype}",
+    "fields": ["channel", "subtype"],
+    "default_port": 554,
+    "help": "channel: 1-4, subtype: 0 (main), 1 (sub)"
+  },
+  "Axis": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/axis-media/media.amp",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Reolink": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/h264Preview_{channel}_main",
+    "fields": ["channel"],
+    "default_port": 554,
+    "help": "Channel: 01, 02, etc."
+  },
+  "EZVIZ": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/h264",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Annke": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/Streaming/Channels/{channel}",
+    "fields": ["channel"],
+    "default_port": 554,
+    "help": "Channel: 101, 102, etc."
+  },
+  "UniFi": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:7447/{camera_id}",
+    "fields": ["camera_id"],
+    "default_port": 7447,
+    "help": "Camera ID: Check UniFi Protect interface"
+  },
+  "Tapo": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/stream{stream_number}",
+    "fields": ["stream_number"],
+    "default_port": 554,
+    "help": "Stream number: 1 or 2"
+  },
+  "Foscam": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/videoMain",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Amcrest": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/cam/realmonitor?channel={channel}&subtype={subtype}",
+    "fields": ["channel", "subtype"],
+    "default_port": 554,
+    "help": "channel: 1-4, subtype: 0 (main), 1 (sub)"
+  },
+  "Swann": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/channel{channel}",
+    "fields": ["channel"],
+    "default_port": 554,
+    "help": "Channel: 1, 2, etc."
+  },
+  "Lorex": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/stream1",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Night Owl": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/h264",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Arlo": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Nest": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/stream",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Ring": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/media.smp",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Blink": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/live0",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Wyze": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/live",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "360 Xiaomi": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/ch0",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "YI Technology": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/ch0",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Kasa": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/stream1",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "LaView": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/Streaming/Channels/{channel}",
+    "fields": ["channel"],
+    "default_port": 554,
+    "help": "Channel: 101, 102, etc."
+  },
+  "LTS": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/Streaming/Channels/{channel}",
+    "fields": ["channel"],
+    "default_port": 554,
+    "help": "Channel: 101, 102, etc."
+  },
+  "ZOSI": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/Streaming/Channels/{channel}",
+    "fields": ["channel"],
+    "default_port": 554,
+    "help": "Channel: 101, 102, etc."
+  },
+  "SV3C": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/live/ch0",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "GoolRC": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/live/ch0",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "V380": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/av0_0",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "ICSee": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/ch0",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "ZMODo": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "SANNCE": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "AOSU": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "JIDE": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "JOOAN": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "SECO": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "VSTARCAM": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Wansview": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Hiseeu": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "ieGeek": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "APEMAN": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "ALPTOP": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "CTRING": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/Streaming/Channels/101",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "ONVIF": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:554/onvif1",
+    "fields": [],
+    "default_port": 554,
+    "help": ""
+  },
+  "Generic RTSP": {
+    "url_template": "rtsp://{user}:{pass}@{ip}:{port}/{custom_path}",
+    "fields": ["custom_path"],
+    "default_port": 554,
+    "help": "Example: live.sdp"
+  },
+  "Custom": {
+    "url_template": "{custom_url}",
+    "fields": [],
+    "default_port": 554,
+    "help": "Enter full RTSP URL"
+  }
+}

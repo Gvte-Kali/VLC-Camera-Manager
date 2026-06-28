@@ -1,0 +1,5 @@
+# Camera Stream Playlist Manager (CSPM) - Dependencies
+# Install with: pip install -r requirements.txt
+
+python-vlc>=3.0.0
+ffmpeg-python>=0.2.0
