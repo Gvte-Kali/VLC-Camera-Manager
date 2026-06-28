@@ -1,8 +1,6 @@
-# Camera Stream Playlist Manager (CSPM)
+# VLC-Camera-Manager
 
 **A Tkinter-based GUI application for managing IP camera playlists and streaming via VLC.**
-
-CSPM Screenshot Python 3.8+ License MIT
 
 ---
 
